@@ -90,7 +90,7 @@ public class uploadFragment extends Fragment {
                 final String currentDateandTime = sdf.format(new Date());
 
                 StorageReference riversRef = storageReference.child(user.getUid()+"/"+currentDateandTime+"_"+tag.getText().toString());
-                
+
                 riversRef.putFile(filePath)
                         .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                             @Override
