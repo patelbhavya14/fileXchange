@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "696231832537",
+    "firebase_url": "https://filexchange-4340b.firebaseio.com",
+    "project_id": "filexchange-4340b",
+    "storage_bucket": "filexchange-4340b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696231832537:android:91d294b8338a2129",
+        "android_client_info": {
+          "package_name": "com.example.bhavya.filexchange"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696231832537-j0mcuuqsq90bl1thnae67hbb0k8jo1sj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bhavya.filexchange",
+            "certificate_hash": "0364eed1e9ec71501e177d35acd46e8eccfa6fef"
+          }
+        },
+        {
+          "client_id": "696231832537-v23gpibbtrc0opl2unkga1ht0ndve31q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMO1OzZRdee-xj85dnDmQnlJYpijcoI_g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696231832537-v23gpibbtrc0opl2unkga1ht0ndve31q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
