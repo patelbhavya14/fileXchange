@@ -51,16 +51,21 @@ public class showFileFragement extends Fragment {
                 @Override
                 public void onDataChange(DataSnapshot ds) {
                     if(ds.exists()) {
+                        imgList.clear();
                         for (DataSnapshot ds1: ds.getChildren()) {
                             String name = ds1.getKey();
                             String a = ds1.child("tag").getValue().toString();
                             String b = ds1.child("type").getValue().toString();
                             String c = ds1.child("url").getValue().toString();
-                            imgList.add(new fileItems(name,ds1.getKey().toString(),a,b,c));
+                            String d = ds1.child("key").getValue().toString();
+
+                            imgList.add(new fileItems(name,ds1.getKey().toString(),a,b,c,d));
                             Collections.reverse(imgList);
                             fileAdapter adapter = new fileAdapter(getContext(),imgList);
                             lv = (ListView) rootView.findViewById(R.id.listView);
                             lv.setAdapter(adapter);
+
+
                         }
                     }
                 }

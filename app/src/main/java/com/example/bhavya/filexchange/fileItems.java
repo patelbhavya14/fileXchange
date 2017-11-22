@@ -5,9 +5,9 @@ package com.example.bhavya.filexchange;
  */
 
 class fileItems {
-    private String title,tag,type,url,name;
+    private String title,tag,type,url,name,key;
 
-    public fileItems(String name, String title,String tag,String type,String url) {
+    public fileItems(String name, String title,String tag,String type,String url,String key) {
 
         super();
 
@@ -16,6 +16,7 @@ class fileItems {
         this.tag = tag;
         this.type = type;
         this.url = url;
+        this.key = key;
     }
 
 
@@ -37,5 +38,9 @@ class fileItems {
 
     public String getUrl() {
         return url;
+    }
+
+    public String getKey() {
+        return key;
     }
 }

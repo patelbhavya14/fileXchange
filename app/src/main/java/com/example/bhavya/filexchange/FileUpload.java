@@ -12,6 +12,7 @@ class FileUpload {
     public String tag;
     public String url;
     public String type;
+    public String key;
 
     public String getTag() {
         return tag;
@@ -20,10 +21,11 @@ class FileUpload {
     public String getUrl() {
         return url;
     }
-    public FileUpload(String tag, String url, String type) {
+    public FileUpload(String tag, String url, String type, String key) {
         this.tag = tag;
         this.url = url;
         this.type = type;
+        this.key = key;
     }
     public FileUpload() {
 

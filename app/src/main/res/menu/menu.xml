@@ -5,17 +5,18 @@
         android:id="@+id/action_favorites"
         android:enabled="true"
         android:title="Upload"
-        android:icon="@drawable/ic_upload"
+        android:icon="@drawable/upload"
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/action_schedules"
         android:enabled="true"
         android:title="Show"
-        android:icon="@drawable/ic_action_show"
+        android:icon="@drawable/showfile"
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/more"
         android:enabled="true"
         android:title="Shared"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/share"/>
 </menu>
